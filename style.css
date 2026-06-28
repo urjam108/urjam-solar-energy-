@@ -1,1 +1,93 @@
+/* ==========================
+   URJAM SOLAR ENERGY
+   Premium Style v1.0
+========================== */
 
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#071421;
+color:#fff;
+overflow-x:hidden;
+}
+
+/* Background */
+body::before{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:url("images/hero-bg.jpg") center/cover no-repeat;
+filter:brightness(.35);
+z-index:-2;
+}
+
+/* Dark Overlay */
+body::after{
+content:"";
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:linear-gradient(to bottom,
+rgba(0,0,0,.35),
+rgba(0,0,0,.65));
+z-index:-1;
+}
+
+/* Container */
+.container{
+width:90%;
+max-width:1400px;
+margin:auto;
+}
+
+/* Section */
+section{
+padding:90px 0;
+}
+
+/* Buttons */
+.btn{
+display:inline-block;
+padding:15px 35px;
+border-radius:50px;
+background:#00C853;
+color:#fff;
+text-decoration:none;
+font-weight:600;
+transition:.4s;
+}
+
+.btn:hover{
+background:#009624;
+transform:translateY(-5px);
+box-shadow:0 15px 35px rgba(0,200,83,.4);
+}
+
+/* Glass Card */
+.glass{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.12);
+border-radius:25px;
+}
+
+/* Heading */
+h1,h2,h3{
+font-weight:700;
+}
+
+p{
+line-height:1.8;
+color:#ddd;
+}
