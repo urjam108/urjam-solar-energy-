@@ -195,3 +195,68 @@ color:#00E676;
 .hero-stats span{
 color:#ddd;
 }
+/* Floating WhatsApp */
+
+.whatsapp{
+position:fixed;
+right:25px;
+bottom:25px;
+width:65px;
+height:65px;
+background:#25D366;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+font-size:32px;
+text-decoration:none;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+z-index:9999;
+transition:.4s;
+animation:float 2s infinite;
+}
+
+.whatsapp:hover{
+transform:scale(1.12);
+}
+
+/* Floating Call */
+
+.call-btn{
+position:fixed;
+right:25px;
+bottom:105px;
+width:65px;
+height:65px;
+background:#ff9800;
+color:#fff;
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:50%;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 10px 30px rgba(0,0,0,.4);
+z-index:9999;
+transition:.4s;
+}
+
+.call-btn:hover{
+transform:scale(1.12);
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0);
+}
+}
