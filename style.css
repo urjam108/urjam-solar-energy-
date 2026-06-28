@@ -91,3 +91,52 @@ p{
 line-height:1.8;
 color:#ddd;
 }
+/* ===== NAVBAR ===== */
+
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+padding:18px 0;
+background:rgba(10,20,35,.55);
+backdrop-filter:blur(15px);
+z-index:1000;
+}
+
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+text-decoration:none;
+color:#fff;
+font-size:24px;
+font-weight:700;
+}
+
+.logo img{
+width:55px;
+margin-right:12px;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:30px;
+}
+
+.nav-links a{
+color:#fff;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#00C853;
+}
