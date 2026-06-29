@@ -1173,3 +1173,40 @@ font-size:18px;
 line-height:1.9;
 color:#ddd;
 }
+
+/* ================= COMPANY STORY ================= */
+
+.company-story{
+padding:100px 0;
+}
+
+.story-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.story-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.story-content h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.story-content p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:20px;
+color:#ddd;
+}
+
+@media(max-width:900px){
+.story-grid{
+grid-template-columns:1fr;
+}
+}
