@@ -843,3 +843,55 @@ display:none;
 }
 
 }
+
+/* ================= ABOUT HOME ================= */
+
+.about-home{
+padding:100px 0;
+}
+
+.about-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:60px;
+align-items:center;
+}
+
+.about-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.35);
+}
+
+.about-content h2{
+font-size:45px;
+margin-bottom:20px;
+}
+
+.about-content p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:25px;
+}
+
+.about-content ul{
+list-style:none;
+margin-bottom:30px;
+}
+
+.about-content ul li{
+margin:12px 0;
+font-size:18px;
+}
+
+@media(max-width:900px){
+
+.about-grid{
+grid-template-columns:1fr;
+}
+
+.about-content h2{
+font-size:34px;
+}
+
+}
