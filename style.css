@@ -1065,3 +1065,16 @@ box-shadow:0 20px 45px rgba(0,200,83,.30);
 border-color:#00E676;
 
 }
+
+/* ===== SCROLL ANIMATION ===== */
+
+.fade-up{
+opacity:0;
+transform:translateY(50px);
+transition:all .8s ease;
+}
+
+.fade-up.show{
+opacity:1;
+transform:translateY(0);
+}
