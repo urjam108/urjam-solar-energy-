@@ -313,3 +313,62 @@ font-size:24px;
 font-size:16px;
 line-height:1.8;
 }
+
+/*================ SOLAR SOLUTIONS ================*/
+
+.solutions{
+padding:100px 0;
+}
+
+.solution-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.solution-card{
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+padding:40px 30px;
+border-radius:25px;
+text-align:center;
+transition:.4s;
+border:1px solid rgba(255,255,255,.1);
+}
+
+.solution-card:hover{
+transform:translateY(-12px);
+box-shadow:0 20px 40px rgba(0,200,83,.25);
+}
+
+.solution-card i{
+font-size:60px;
+color:#00C853;
+margin-bottom:20px;
+}
+
+.solution-card h3{
+margin-bottom:15px;
+font-size:26px;
+}
+
+.solution-card p{
+margin-bottom:25px;
+color:#ddd;
+}
+
+.btn-small{
+display:inline-block;
+padding:12px 28px;
+background:#00C853;
+color:#fff;
+border-radius:40px;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.btn-small:hover{
+background:#009624;
+}
