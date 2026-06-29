@@ -430,3 +430,71 @@ font-size:22px;
 color:#fff;
 
 }
+
+
+/* ================= CALCULATOR ================= */
+
+.calculator{
+
+padding:100px 0;
+
+}
+
+.calculator-box{
+
+max-width:700px;
+
+margin:auto;
+
+padding:40px;
+
+}
+
+.calc-group{
+
+margin-bottom:25px;
+
+}
+
+.calc-group label{
+
+display:block;
+
+margin-bottom:10px;
+
+font-weight:600;
+
+}
+
+.calc-group input,
+.calc-group select{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:10px;
+
+font-size:18px;
+
+outline:none;
+
+}
+
+.result{
+
+margin-top:30px;
+
+text-align:center;
+
+}
+
+.result h3{
+
+margin:15px 0;
+
+color:#00E676;
+
+}
