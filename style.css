@@ -1210,3 +1210,38 @@ color:#ddd;
 grid-template-columns:1fr;
 }
 }
+
+/* ================= WHY URJAM ================= */
+
+.why-urjam{
+padding:100px 0;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.why-card{
+padding:35px;
+text-align:center;
+transition:.4s;
+}
+
+.why-card h3{
+font-size:24px;
+margin-bottom:15px;
+color:#00E676;
+}
+
+.why-card p{
+font-size:17px;
+line-height:1.8;
+color:#ddd;
+}
+
+.why-card:hover{
+transform:translateY(-10px);
+}
