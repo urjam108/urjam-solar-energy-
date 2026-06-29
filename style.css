@@ -1023,3 +1023,33 @@ left:-120px;
 filter:blur(60px);
 
 }
+
+/* ===== PREMIUM CARD EFFECT ===== */
+
+.glass{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(18px);
+
+-webkit-backdrop-filter:blur(18px);
+
+border:1px solid rgba(255,255,255,.12);
+
+border-radius:22px;
+
+box-shadow:0 10px 35px rgba(0,0,0,.25);
+
+transition:all .4s ease;
+
+}
+
+.glass:hover{
+
+transform:translateY(-12px) scale(1.03);
+
+box-shadow:0 20px 45px rgba(0,200,83,.30);
+
+border-color:#00E676;
+
+}
