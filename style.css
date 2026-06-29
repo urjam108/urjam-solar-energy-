@@ -1547,3 +1547,14 @@ grid-template-columns:1fr;
 }
 
 }
+/* ================= MAP ================= */
+
+.map-section{
+padding:100px 0;
+}
+
+.map-box{
+overflow:hidden;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+}
