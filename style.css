@@ -1433,3 +1433,31 @@ transform:translateY(-12px);
 .featured{
 border:2px solid #00E676;
 }
+/* ================= WHY BUY ================= */
+
+.why-buy{
+padding:100px 0;
+}
+
+.why-buy-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.why-buy-card{
+padding:35px;
+text-align:center;
+}
+
+.why-buy-card h3{
+color:#00E676;
+margin-bottom:15px;
+font-size:24px;
+}
+
+.why-buy-card p{
+color:#ddd;
+line-height:1.8;
+}
