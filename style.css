@@ -1245,3 +1245,36 @@ color:#ddd;
 .why-card:hover{
 transform:translateY(-10px);
 }
+/* ================= CORE VALUES ================= */
+
+.core-values{
+padding:100px 0;
+}
+
+.values-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.value-card{
+padding:35px;
+text-align:center;
+transition:.4s;
+}
+
+.value-card:hover{
+transform:translateY(-10px);
+}
+
+.value-card h3{
+font-size:24px;
+margin-bottom:15px;
+color:#00E676;
+}
+
+.value-card p{
+color:#ddd;
+line-height:1.8;
+}
