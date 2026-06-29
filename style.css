@@ -1278,3 +1278,33 @@ color:#00E676;
 color:#ddd;
 line-height:1.8;
 }
+/* ================= FOUNDER MESSAGE ================= */
+
+.founder-message{
+padding:100px 0;
+}
+
+.founder-box{
+max-width:900px;
+margin:auto;
+padding:50px;
+text-align:center;
+}
+
+.founder-box h2{
+font-size:42px;
+margin-bottom:15px;
+color:#00E676;
+}
+
+.founder-box h3{
+font-size:30px;
+margin-bottom:10px;
+}
+
+.founder-box p{
+font-size:18px;
+line-height:1.9;
+color:#ddd;
+margin-bottom:18px;
+}
