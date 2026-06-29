@@ -588,3 +588,27 @@ margin-bottom:10px;
 .project-content p{
 color:#ddd;
 }
+
+
+/* ================= CTA ================= */
+
+.cta{
+padding:100px 20px;
+text-align:center;
+background:linear-gradient(135deg,#00C853,#009688);
+}
+
+.cta h2{
+font-size:48px;
+margin-bottom:20px;
+color:#fff;
+}
+
+.cta p{
+font-size:20px;
+margin-bottom:35px;
+color:#fff;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+}
