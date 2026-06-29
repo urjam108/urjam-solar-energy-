@@ -1308,3 +1308,45 @@ line-height:1.9;
 color:#ddd;
 margin-bottom:18px;
 }
+/* ================= PRODUCTS HERO ================= */
+
+.products-hero{
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("images/products-banner.jpg") center/cover no-repeat;
+}
+
+.products-hero h1{
+font-size:60px;
+margin-bottom:20px;
+font-weight:800;
+}
+
+.products-hero p{
+font-size:22px;
+max-width:850px;
+margin:auto auto 35px;
+color:#ddd;
+}
+
+@media(max-width:768px){
+
+.products-hero{
+height:55vh;
+}
+
+.products-hero h1{
+font-size:38px;
+}
+
+.products-hero p{
+font-size:18px;
+padding:0 20px;
+}
+
+}
