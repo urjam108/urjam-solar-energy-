@@ -1350,3 +1350,33 @@ padding:0 20px;
 }
 
 }
+/* ================= SOLAR BRANDS ================= */
+
+.solar-brands{
+padding:100px 0;
+}
+
+.brands-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.brand-card{
+padding:35px;
+text-align:center;
+}
+
+.brand-card h3{
+font-size:28px;
+color:#00E676;
+margin-bottom:15px;
+}
+
+.brand-card p{
+font-size:18px;
+color:#ddd;
+margin-bottom:25px;
+line-height:1.8;
+}
