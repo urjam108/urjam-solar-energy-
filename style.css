@@ -113,7 +113,7 @@ top:0;
 left:0;
 width:100%;
 padding:18px 0;
-background:rgba(10,20,35,.55);
+background:#0A2540;
 backdrop-filter:blur(15px);
 z-index:1000;
 }
@@ -188,11 +188,13 @@ flex-wrap:wrap;
 
 .btn-outline{
 background:transparent;
-border:2px solid #00C853;
+border:2px solid #0A2540;
+color:#0A2540;
 }
 
 .btn-outline:hover{
-background:#00C853;
+background:#0A2540;
+color:#fff;
 }
 
 .hero-stats{
