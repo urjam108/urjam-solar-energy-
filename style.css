@@ -1558,3 +1558,45 @@ overflow:hidden;
 border-radius:20px;
 box-shadow:0 15px 40px rgba(0,0,0,.35);
 }
+/* ================= SERVICES HERO ================= */
+
+.services-hero{
+height:70vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("images/services-banner.jpg") center/cover no-repeat;
+}
+
+.services-hero h1{
+font-size:60px;
+margin-bottom:20px;
+font-weight:800;
+}
+
+.services-hero p{
+font-size:22px;
+max-width:850px;
+margin:auto auto 35px;
+color:#ddd;
+}
+
+@media(max-width:768px){
+
+.services-hero{
+height:55vh;
+}
+
+.services-hero h1{
+font-size:38px;
+}
+
+.services-hero p{
+font-size:18px;
+padding:0 20px;
+}
+
+}
