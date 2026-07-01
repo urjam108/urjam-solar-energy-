@@ -283,3 +283,66 @@ margin:auto;
 filter:drop-shadow(0 30px 60px rgba(0,0,0,.15));
 
 }
+/*==================================
+ PREMIUM STATS
+==================================*/
+
+.hero-stats{
+
+display:flex;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+margin-top:20px;
+
+}
+
+.stat-card{
+
+background:#ffffff;
+
+padding:30px;
+
+border-radius:20px;
+
+min-width:180px;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+border:1px solid rgba(10,37,64,.06);
+
+transition:.35s;
+
+}
+
+.stat-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 25px 50px rgba(15,23,42,.15);
+
+}
+
+.stat-card h2{
+
+font-size:48px;
+
+font-weight:800;
+
+color:#0A2540;
+
+margin-bottom:10px;
+
+}
+
+.stat-card p{
+
+font-size:16px;
+
+color:#667085;
+
+font-weight:500;
+
+}
