@@ -103,5 +103,82 @@ p{
 color:var(--gray);
 
 font-size:18px;
-
 }
+
+/*==================================
+ PREMIUM GLASS NAVBAR
+==================================*/
+
+.header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+z-index:1000;
+background:rgba(255,255,255,.90);
+backdrop-filter:blur(18px);
+-webkit-backdrop-filter:blur(18px);
+border-bottom:1px solid rgba(0,0,0,.05);
+transition:.4s;
+}
+
+.navbar{
+height:85px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+color:#0A2540;
+letter-spacing:1px;
+}
+
+.logo span{
+color:#00A651;
+}
+
+.nav-links{
+display:flex;
+gap:35px;
+list-style:none;
+align-items:center;
+}
+
+.nav-links a{
+font-size:16px;
+font-weight:600;
+color:#0A2540;
+position:relative;
+padding:5px 0;
+}
+
+.nav-links a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-5px;
+width:0;
+height:3px;
+background:#00A651;
+border-radius:20px;
+transition:.35s;
+}
+
+.nav-links a:hover{
+color:#00A651;
+}
+
+.nav-links a:hover::after{
+width:100%;
+}
+
+.menu-btn{
+display:none;
+font-size:30px;
+cursor:pointer;
+color:#0A2540;
+}
+
