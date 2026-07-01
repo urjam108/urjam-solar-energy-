@@ -451,3 +451,80 @@ color:#667085;
 line-height:1.8;
 
 }
+/*==================================
+ GLOBAL WHY CHOOSE US
+==================================*/
+
+.why-us{
+
+background:linear-gradient(180deg,#ffffff,#F7F9FC);
+
+}
+
+.why-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+gap:30px;
+
+margin-top:60px;
+
+}
+
+.why-card{
+
+background:#fff;
+
+padding:40px 30px;
+
+border-radius:24px;
+
+text-align:center;
+
+box-shadow:0 15px 40px rgba(15,23,42,.08);
+
+border:1px solid rgba(10,37,64,.06);
+
+transition:.35s;
+
+}
+
+.why-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 25px 55px rgba(15,23,42,.15);
+
+}
+
+.why-card i{
+
+font-size:52px;
+
+color:#0A2540;
+
+margin-bottom:20px;
+
+}
+
+.why-card h3{
+
+font-size:24px;
+
+margin-bottom:15px;
+
+color:#0A2540;
+
+}
+
+.why-card p{
+
+font-size:17px;
+
+color:#667085;
+
+line-height:1.8;
+
+}
