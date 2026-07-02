@@ -40,3 +40,32 @@ behavior:"smooth"
 });
 
 });
+// Counter Animation
+
+const counters=document.querySelectorAll(".stat-card h2");
+
+const speed=80;
+
+counters.forEach(counter=>{
+
+const update=()=>{
+
+const target=counter.innerText.replace(/\D/g,'');
+
+const count=+counter.innerText.replace(/\D/g,'');
+
+const inc=Math.ceil(target/speed);
+
+if(count<target){
+
+counter.innerText=(count+inc)+"+";
+
+setTimeout(update,20);
+
+}
+
+};
+
+update();
+
+});
