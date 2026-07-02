@@ -85,3 +85,28 @@ navLinks.classList.toggle("active");
 });
 
 }
+// ================================
+// SCROLL REVEAL
+// ================================
+
+const observer = new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+},{threshold:0.15});
+
+document.querySelectorAll("section,.service-card,.project-card,.testimonial-card,.why-card").forEach(el=>{
+
+el.classList.add("hidden");
+
+observer.observe(el);
+
+});
