@@ -698,3 +698,58 @@ color:#667085;
 font-size:15px;
 
 }
+/*==================================
+ PREMIUM FAQ
+==================================*/
+
+.faq{
+
+background:#F7F9FC;
+
+}
+
+.faq-item{
+
+background:#fff;
+
+padding:28px 30px;
+
+margin-bottom:20px;
+
+border-radius:18px;
+
+box-shadow:0 12px 35px rgba(15,23,42,.08);
+
+border:1px solid rgba(10,37,64,.06);
+
+transition:.35s;
+
+}
+
+.faq-item:hover{
+
+transform:translateX(8px);
+
+box-shadow:0 20px 45px rgba(15,23,42,.14);
+
+}
+
+.faq-item h3{
+
+font-size:22px;
+
+color:#0A2540;
+
+margin-bottom:12px;
+
+}
+
+.faq-item p{
+
+font-size:17px;
+
+color:#667085;
+
+line-height:1.8;
+
+}
