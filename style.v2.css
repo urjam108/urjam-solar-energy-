@@ -753,3 +753,90 @@ color:#667085;
 line-height:1.8;
 
 }
+/*==================================
+ PREMIUM FOOTER
+==================================*/
+
+.footer{
+
+background:#081C33;
+
+padding:80px 0 30px;
+
+color:#fff;
+
+}
+
+.footer-grid{
+
+display:grid;
+
+grid-template-columns:2fr 1fr 1fr;
+
+gap:50px;
+
+margin-bottom:40px;
+
+}
+
+.footer h3{
+
+color:#fff;
+
+margin-bottom:20px;
+
+font-size:24px;
+
+}
+
+.footer p{
+
+color:#D1D5DB;
+
+line-height:1.8;
+
+}
+
+.footer ul li{
+
+margin-bottom:12px;
+
+}
+
+.footer ul li a{
+
+color:#D1D5DB;
+
+transition:.3s;
+
+}
+
+.footer ul li a:hover{
+
+color:#00A651;
+
+padding-left:6px;
+
+}
+
+.footer hr{
+
+border:none;
+
+height:1px;
+
+background:rgba(255,255,255,.12);
+
+margin:35px 0;
+
+}
+
+.copyright{
+
+text-align:center;
+
+color:#B8C4D2;
+
+font-size:15px;
+
+}
