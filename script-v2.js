@@ -110,3 +110,46 @@ el.classList.add("hidden");
 observer.observe(el);
 
 });
+/*==================================
+ SCROLL ANIMATION
+==================================*/
+
+.hidden{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:all .8s ease;
+
+}
+
+.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+.nav-links.active{
+
+display:flex;
+
+position:absolute;
+
+top:85px;
+
+left:0;
+
+width:100%;
+
+background:#fff;
+
+flex-direction:column;
+
+padding:25px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
